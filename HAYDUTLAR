@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haydutlar Chat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-purple-600">Haydutlar Chat</h1>
+        <nav class="space-x-4">
+          <a href="#features" class="text-gray-700 hover:text-purple-600">Özellikler</a>
+          <a href="#download" class="text-gray-700 hover:text-purple-600">İndir</a>
+          <a href="#legal" class="text-gray-700 hover:text-purple-600">Hukuki</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="bg-purple-600 text-white text-center py-20 px-4">
+      <h2 class="text-4xl font-bold mb-4">Gerçek Zamanlı Güvenli Mesajlaşma</h2>
+      <p class="text-lg mb-6">Haydutlar Chat ile arkadaşlarınla anında, özgürce ve güvenli şekilde iletişim kur!</p>
+      <a href="#download" class="bg-white text-purple-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-purple-100">
+        Uygulamayı İndir
+      </a>
+    </section>
+
+    <!-- Özellikler -->
+    <section id="features" class="max-w-5xl mx-auto py-16 px-4 grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow p-6 text-center">
+        <h3 class="text-xl font-semibold text-purple-600">Uçtan Uca Şifreleme</h3>
+        <p class="mt-2 text-gray-600">Mesajların sadece sana ve alıcısına görünür. Gizliliğin bizim için öncelik.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6 text-center">
+        <h3 class="text-xl font-semibold text-purple-600">Grup ve Bireysel Sohbet</h3>
+        <p class="mt-2 text-gray-600">İster bireysel ister grup olarak sohbet et, bağlantıda kal.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow p-6 text-center">
+        <h3 class="text-xl font-semibold text-purple-600">Kolay Kullanım</h3>
+        <p class="mt-2 text-gray-600">Sade ve hızlı arayüz ile dakikalar içinde mesajlaşmaya başla.</p>
+      </div>
+    </section>
+
+    <!-- Ekran Görüntüsü -->
+    <section class="bg-white py-16 px-4 text-center">
+      <h2 class="text-3xl font-bold mb-6">Uygulama Görünümü</h2>
+      <img src="https://via.placeholder.com/400x700?text=Haydutlar+Chat+SS" alt="Haydutlar Chat Screenshot" class="mx-auto rounded-xl shadow-lg" />
+    </section>
+
+    <!-- İndir -->
+    <section id="download" class="bg-purple-100 py-16 px-4 text-center">
+      <h2 class="text-3xl font-bold text-purple-700 mb-4">Hemen İndir!</h2>
+      <p class="mb-6 text-gray-700">Haydutlar Chat şu anda Android & iOS için hazırlanıyor.</p>
+      <div class="flex justify-center space-x-4">
+        <a href="#" class="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700">Google Play</a>
+        <a href="#" class="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700">App Store</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="legal" class="bg-gray-800 text-white text-sm py-8 px-4">
+      <div class="max-w-5xl mx-auto text-center">
+        <p>&copy; 2025 Haydutlar Chat. Tüm hakları saklıdır.</p>
+        <div class="mt-2 space-x-4">
+          <a href="/gizlilik.html" class="hover:underline">Gizlilik Politikası</a>
+          <a href="/hizmet-sartlari.html" class="hover:underline">Hizmet Şartları</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
